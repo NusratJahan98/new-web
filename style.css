@@ -1,198 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 /* main-section start */
-body{
+
+body {
     display: block;
-    }
-    .main-section{
-    
+}
+
+.main-section {
     background-color: #d79ed6;
-    }
-    .container{
-        width: 1100px;
-        margin: auto;
-        }
-    .header{
+    /* box-shadow: -1px 5px 13px 13px black; */
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.header {
     display: flex;
-    }
-    .logo{max-width: 20%;
-        flex-basis: 20%;}
-    .logo img{
-        height: 60px;
-        width: 60px;
-        border-radius: 20px;
-        margin-top: 16px;
-    }
-    nav{max-width: 80%;
-        flex-basis: 80%;
-        margin-left: 100px;}
-    nav ul{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        list-style: none;
-        font-size: 30px;
-        font-weight: 700;
-        font-style: unset;
-        text-transform: capitalize;
-    }
-    nav ul li :hover {
-    
-    }
-    nav ul li a{
-    
-    }
-    /* main-section end */
-    
-    
-    /* <!-- information section start--> */
-    .information{
-        margin-top: 70px;
-        background-color: #e7cdd1;
-        }
-    .container{
-    
-    }
-    .my-information{
-    display: flex;
-    }
-    .contant{max-width: 30%;
-        flex-basis: 30%;
-        margin: auto;}
-        span{
-            display: block;
-            width: 50px;
-            height: 5px;
-            background-color: rgb(189, 30, 210);
-            display: block;
-            padding: 1px;
-            margin: auto;
-        }
-    .name{
-    
-    font-size: 28PX;
-    
-    color: #4c1d58;
-    }
-    .work{
-    
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d79ed6;
+    box-shadow: 1px 4px 20px 1px #00000063;
+}
+
+.logo {
+    max-width: 20%;
+    flex-basis: 20%;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    /* margin-top: 16px; */
+}
+
+nav {
+    max-width: 80%;
+    flex-basis: 80%;
+    /* margin-left: 100px; */
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
     font-size: 30px;
-    
+    font-weight: 700;
+    font-style: unset;
+    text-transform: capitalize;
+    justify-items: end;
+}
+
+nav ul li :hover {}
+
+nav ul li a {}
+
+
+/* main-section end */
+
+
+/* <!-- information section start--> */
+
+.information {
+    /* margin-top: 70px; */
+    background-color: #e7cdd1;
+    padding: 100px 0px;
+}
+
+.container {}
+
+.my-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contant {
+    max-width: 30%;
+    flex-basis: 30%;
+    margin: auto;
+}
+
+span {
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: rgb(189, 30, 210);
+    display: block;
+    padding: 0px;
+    margin: 20px auto;
+}
+
+.name {
+    font-size: 28px;
+    color: #4c1d58;
+    margin: 15px 0px;
+}
+
+.work {
+    font-size: 30px;
     color: #98719f;
-    }
-    .contant p{
-    
+    margin: 10px 0px;
+}
+
+.contant p {
     text-align: justify;
-    
     font-size: 16px;
-    
     color: #c790c3;
-    }
-    .images{
-        max-width: 70%;
-        flex-basis: 70%;
-        display: flex;
-    }
-    .image{
+}
+
+.images {
+    max-width: 70%;
+    flex-basis: 70%;
+    display: flex;
+}
+
+.image {
     margin-left: 10px;
     position: relative;
-    }
-    .image img{
+}
+
+.image img {
     width: 100%;
-    }
-    .cover{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: #a5a5ce6b;
-        top: 0;
-        display: none;
-    
-    }
-    .image:hover .cover{
-        display: block;
-    }
-    .ditails{
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 4px #0000003b;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #a5a5ce6b;
+    top: 0;
+    display: none;
+}
+
+.image:hover .cover {
+    display: block;
+}
+
+.ditails {
     position: absolute;
     top: 50%;
     transform: translateX(+80%);
     color: rgb(114, 15, 153);
     display: none;
-    }
-    .image:hover .ditails{
-        display: block;
-    }
-    /* <!-- information section end --> */
-
-    /* contact section start */
-    .contact-section{
-
-background-color: #eddfef;
 }
-    .container{
 
-    }
-    .contact-part{
-
+.image:hover .ditails {
+    display: block;
 }
-    .contact-name{
 
-margin: auto;
 
-width: 300px;
+/* <!-- information section end --> */
 
-/* margin-top: 80px; */
 
-font-size: 20px;
+/* contact section start */
 
-color: #440b3d;
+.contact-section {
+    background-color: #eddfef;
 }
-    .h-name{
 
-padding: 80px 0px;
+.container {}
 
-font-size: 30px;
+.contact-part {}
 
-font-weight: 900;
-
-color: #32022a;
-
+.contact-name {
+    margin: auto;
+    width: 300px;
+    /* margin-top: 80px; */
+    font-size: 20px;
+    color: #440b3d;
 }
-    .contact-icons{
-        
-width: 200px;
-        
-margin: auto;
-        
-font-size: 50px;
-        
-color: #4a033b;
-    }
-    .contact-ditails{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding: 50px;
-    }
-    ul{
+
+.h-name {
+    padding: 80px 0px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #32022a;
 }
-    ul li{
 
-list-style: none;
-
-font-size: 20px;
+.contact-icons {
+    width: 200px;
+    margin: auto;
+    font-size: 50px;
+    color: #4a033b;
 }
-    
-    ul li a{
-        display: block;
-        text-decoration: none;
-        color: #6d056e;
-    }
-    .year{
 
-width: 200px;
-
-margin: auto;
-
-font-size: 40px;
-
-color: #3a0736;
-
+.contact-ditails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
 }
-    /* contact section end */
+
+ul {}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #6d056e;
+}
+
+ul li a:hover {}
+
+.year {
+    width: 200px;
+    margin: auto;
+    font-size: 40px;
+    color: #3a0736;
+}
+
+.year:hover {}
+
+
+/* contact section end */
+
+.year {}
