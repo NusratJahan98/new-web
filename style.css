@@ -33,7 +33,7 @@ body{
         font-style: unset;
         text-transform: capitalize;
     }
-    nav ul li{
+    nav ul li :hover {
     
     }
     nav ul li a{
@@ -124,8 +124,7 @@ body{
     /* contact section start */
     .contact-section{
 
-/* background-color: #eddfef; */
-
+background-color: #eddfef;
 }
     .container{
 
@@ -141,6 +140,9 @@ width: 300px;
 
 /* margin-top: 80px; */
 
+font-size: 20px;
+
+color: #440b3d;
 }
     .h-name{
 
@@ -155,20 +157,42 @@ color: #32022a;
 }
     .contact-icons{
         
+width: 200px;
+        
+margin: auto;
+        
+font-size: 50px;
+        
+color: #4a033b;
     }
     .contact-ditails{
-
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 50px;
     }
     ul{
-
-    }
+}
     ul li{
 
-    }
-    ul li a{
+list-style: none;
 
+font-size: 20px;
+}
+    
+    ul li a{
+        display: block;
+        text-decoration: none;
+        color: #6d056e;
     }
     .year{
 
-    }
+width: 200px;
+
+margin: auto;
+
+font-size: 40px;
+
+color: #3a0736;
+
+}
     /* contact section end */
